@@ -1,0 +1,25 @@
+{
+    "name": "log4js-amqp",
+    "main": "index",
+    "description": "A log4js log appender to push logs into AMQP",
+    "version": "0.0.1",
+    "author": "Sven Pfleiderer <sven@roothausen.de>",
+    "directories": {
+      "lib": "lib"
+    },
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/pfleidi/log4js-amqp.git"
+    },
+    "bugs": {
+      "web": "http://github.com/pfleidi/log4js-amqp/issues"
+    },
+    "licenses": [{
+      "type": "MIT",
+      "url": "http://github.com/pfleidi/log4js-amqp/raw/master/LICENSE"
+    }],
+    "dependencies": {
+      "amqp": ">= 0.0.2",
+      "log4js": ">=0.2.0"
+    }
+}
