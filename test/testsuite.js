@@ -10,7 +10,7 @@ var Log4jsAmqp = require('../index');
 var Amqp = require('amqp');
 var Fs = require('fs');
 var testCase = require('nodeunit').testCase;
-var Sys = require('sys');
+var Sys = require('util');
 
 var connection;
 var queue;
